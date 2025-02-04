@@ -1,0 +1,29 @@
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Directorios de dependencias
+node_modules/
+vendor/
+
+# Archivos de entorno
+.env
+
+# Archivos binarios
+*.exe
+*.dll
+
+# Archivos temporales
+*.tmp
+*.swp
+
+Git sigue el archivo.gitignoreyno agrega los archivos
+Si un archivo ya ha sido agregado a Git y luego lo incluye en .gitignore, Git no dejarremoverlo del control de versiones usadasgit rm --cached <archivo>.
